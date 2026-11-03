@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Dados para conexão com o banco de dados
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "Senai@118";
     $dbname = "mercado";
 
     // Conecta ao MySQL

@@ -70,7 +70,7 @@
         // Dados para conexão com o banco de dados
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "Senai@118";
         $dbname = "mercado";
 
         // Conecta ao MySQL
@@ -91,8 +91,8 @@
             id_produto INT AUTO_INCREMENT PRIMARY KEY,
             nome_produto VARCHAR(100) NOT NULL,
             tipo_produto VARCHAR(100) NOT NULL,
-            estoque VARCHAR(10) NOT NULL,
-            preco VARCHAR(10) NOT NULL
+            estoque INT(10) NOT NULL,
+            preco FLOAT(10) NOT NULL
         )";
         $conn->query($sql);
 

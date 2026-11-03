@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Conecta ao banco de dados
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "Senai@118";
     $dbname = "mercado";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
