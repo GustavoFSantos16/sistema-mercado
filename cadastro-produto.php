@@ -14,6 +14,7 @@
     <div class="topbar">
         <a href="index.php">Voltar</a>
     </div>
+
     <main class="page-card">
     <div class="page-heading">
         <h2>📝 Cadastro de Produtos</h2>
@@ -55,6 +56,8 @@
             <button type="reset">Limpar</button>
         </div>
     </form>
+
+    </main>
 
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
